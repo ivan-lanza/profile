@@ -3,4 +3,31 @@
   background-repeat: repeat-x;
   height: auto; }
 
+.container-about {
+  height: auto;
+  background: #27A5AA; }
+
+.container-casting {
+  height: auto;
+  background: #F6C34E; }
+
+.container-portifolio {
+  height: auto;
+  background: #27A5AA; }
+
+.container-contact {
+  height: auto;
+  background: #FFF; }
+
+.white {
+  color: #FFF; }
+
+.cover-portifolio-size {
+  width: 400px;
+  height: 200px;
+  transition: outline 0.3s ease-out;
+  outline: 0px; }
+  .cover-portifolio-size:hover {
+    outline: 5px solid #FFF; }
+
 /*# sourceMappingURL=style.css.map */

@@ -1,1 +1,17 @@
-.pattern-header{background: url(../imgs/pattern-header.png); background-repeat: repeat-x; height: auto;}
+$bg-container-about: #27A5AA;
+$bg-container-casting: #F6C34E;
+$url-bg-header: url(../imgs/pattern-header.png);
+$white: #FFF;
+$cover-height: 200px;
+$cover-width: 400px;
+$outiline-cover: 5px solid #FFF;
+$outline-transition: outline 0.3s ease-out;
+
+
+.pattern-header{background: $url-bg-header; background-repeat: repeat-x; height: auto;}
+.container-about{height: auto; background: $bg-container-about;}
+.container-casting{height: auto; background: $bg-container-casting;}
+.container-portifolio{height: auto; background: $bg-container-about;}
+.container-contact{height: auto; background: $white;}
+.white{color: $white;}
+.cover-portifolio-size{width: $cover-width; height: $cover-height; transition: $outline-transition; outline: 0px; &:hover{outline: $outiline-cover;}}
